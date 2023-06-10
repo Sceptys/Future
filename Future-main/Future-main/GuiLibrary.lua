@@ -1239,7 +1239,7 @@ GuiLibrary["LoadOnlyGuiConfig"] = function()
     else
         for i,v in next, GuiLibrary.Objects do 
             if i == "ClickGuiOptionsButton" then
-                v.API.SetKeybind("RightShift")
+                v.API.SetKeybind("B")
             elseif i == "ColorsOptionsButtonHueSlider" and v.OptionsButton == "ColorsOptionsButton" and v.Window == "OtherWindow" then
                 v.API.Set(360)
             elseif i == "ColorsOptionsButtonSaturationSlider" and v.OptionsButton == "ColorsOptionsButton" and v.Window == "OtherWindow" then
